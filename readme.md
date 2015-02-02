@@ -4,6 +4,8 @@ So `indicator-zulu` was created in a few minutes time this morning.
 
 It shows `zulu` time. That is it. 
 
+![screenshot](screenshot.png)
+
 ## Details
 
 For now, there is no .deb package. One needs to add it to your startup applications.
