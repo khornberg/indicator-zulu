@@ -2,11 +2,14 @@ For a while now I have wanted a second clock on Ubuntu under Unity. I could not 
 
 So `indicator-zulu` was created in a few minutes time this morning.
 
-It shows `zulu` time. That is it. 
+It shows `zulu` time. That is it.
 
 ![screenshot](screenshot.png)
 
 ## Details
+
+One needs the `python-appindicator` package.
+Install with `sudo apt-get install python-appindicator`
 
 For now, there is no .deb package. One needs to add it to your startup applications.
 
@@ -16,7 +19,7 @@ It depends on your clock to be set correctly and has a 100 millisecond delay for
 
 ## Other methods
 
-I did find a way to show [arbitrary output of a shell command](http://www.webupd8.org/2014/05/ubuntu-appindicator-that-displays-bash.html). 
+I did find a way to show [arbitrary output of a shell command](http://www.webupd8.org/2014/05/ubuntu-appindicator-that-displays-bash.html).
 
 I also found an [indicator for many timezones](https://github.com/sfstpala/World-Clock-AppIndicator/blob/master/world-clock); however, I wanted a clock shown instead of needing to click the indicator. I can do the same with the built in clock.
 
